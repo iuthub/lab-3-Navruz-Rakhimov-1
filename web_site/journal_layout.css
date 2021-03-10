@@ -1,0 +1,61 @@
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-image: url(http://www.cs.washington.edu/education/courses/190m/09sp/labs/2‐journal/images/background.gif);
+}
+
+.main {
+    border: 10px solid white;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 0px;
+    align-items: stretch;
+}
+
+.header {
+    background-color: #A8F0F0;
+    text-align: right;
+    border: 10px solid white;
+}
+
+.header-title, .header-subtitle {
+    text-align: right;
+}
+
+.header p {
+    padding: 5px;
+    margin: 0;
+    font-size: 14pt;
+}
+
+.created-at {
+    border-bottom: 2px dashed #57b8b8;
+}
+
+.thumbnail {
+    float: right;
+}
+
+.article {
+    border: 4px solid #C2E9E9;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.friends ul {
+    margin-left: 15px;
+}
+.content {
+    flex-basis: 80%;
+}
+.friends {
+    flex-basis: 20%;
+    height: 150px;
+    margin-right: 10px;
+    border: 4px solid #C2E9E9;
+    background-color: #E8FBFB;
+}
